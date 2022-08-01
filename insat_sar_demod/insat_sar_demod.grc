@@ -41,7 +41,7 @@ blocks:
       the input baseband
 
       (should be above 600k)'
-    value: ''
+    value: '1000000'
   states:
     bus_sink: false
     bus_source: false
@@ -278,7 +278,7 @@ blocks:
     bus_structure: null
     coordinate: [616, 164.0]
     rotation: 0
-    state: enabled
+    state: bypassed
 - name: blocks_wavfile_sink_0
   id: blocks_wavfile_sink
   parameters:
