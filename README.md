@@ -1,6 +1,6 @@
 # flowcharts
 
-## Insat-3 S&R Demodulator
+## insat_sar_demod: Insat-3 S&R Transponder Demodulator
 
 Resamples, locks, and demodulates the C-band 4507 MHz search and rescue transponder downlink from Insat-3 satellites. See FFT screenshot below, showing the transponder before (double sideband) and after (single sideband demodulated).
 
