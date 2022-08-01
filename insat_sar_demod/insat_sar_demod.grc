@@ -23,6 +23,7 @@ options:
     sizing_mode: fixed
     thread_safe_setters: ''
     title: Insat-3 S&R Transponder Demodulator v1.0
+    window_size: (1000,1000)
   states:
     bus_sink: false
     bus_source: false
@@ -389,7 +390,7 @@ blocks:
     comment: ''
     ctrlpanel: 'False'
     fc: '0'
-    fftsize: '16000'
+    fftsize: '16384'
     freqhalf: 'True'
     grid: 'False'
     gui_hint: 0,0,1,1
@@ -470,7 +471,7 @@ blocks:
     comment: ''
     ctrlpanel: 'False'
     fc: '0'
-    fftsize: '16000'
+    fftsize: '16384'
     freqhalf: 'True'
     grid: 'False'
     gui_hint: 0,1,1,1
@@ -548,7 +549,7 @@ blocks:
     color9: '0'
     comment: ''
     fc: '0'
-    fftsize: '8000'
+    fftsize: '16384'
     freqhalf: 'True'
     grid: 'False'
     gui_hint: 1,0,1,2
